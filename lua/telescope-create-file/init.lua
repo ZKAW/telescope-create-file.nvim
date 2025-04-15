@@ -7,7 +7,7 @@ function M.setup(opts)
 end
 
 -- Export the main functions
-M.find_or_create_files = require("telescope-create-file.actions").find_or_create_files
-M.find_or_create_files_from_cwd = require("telescope-create-file.actions").find_or_create_files_from_cwd
+M.find_or_create_files = require("actions").find_or_create_files
+M.find_or_create_files_from_cwd = require("actions").find_or_create_files_from_cwd
 
 return M
